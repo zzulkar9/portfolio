@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Athiti:wght@200;300;400;500;600;700&family=Fredoka:wght@300..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.js"></script>
+    <script src="script.js" defer></script>
+
+    <title>zulkarnain</title>
+    <link rel="icon" type="image/x-icon" href="https://icons.iconarchive.com/icons/dooffy/characters/128/Z1-icon.png">
+
+</head>
+
+<body>
+
+    <!-- BG video -->
+    <video autoplay muted loop id="background-video">
+        <source src="sources/video/bg.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <!-- MAIN CONTENT -->
+
+    <div class="left-right-wrap">
+
+        <div class="left-right-section left-sticky">
+            <div class="left-text">
+                <h1><span id="typed" class="lightGreen"></span></h1>
+                <div id="typed-strings">	
+                    <span>hi!</span>
+                    <span>你好</span>
+                    <span>namaste</span>
+                    <span>hola</span>
+                    <span>konnichiwa</span>
+                </div>
+                <h4>my name is Zul</h4>
+                <p>i build pixel-perfect, engaging, and accessible digital experiences.</p>
+            </div>
+
+            <div class="left-text nav-section">
+                <li><a href="#about" class="underline">about</a></li>
+                <li><a href="#experiences" class="underline">experiences</a></li>
+                <li><a href="#projects" class="underline">projects</a></li>
+                <li><a href="sources/20240823_CV Zul.pdf" target="_blank" class="underline">resume</a></li>
+            </div>
+
+            <div class="left-text social-section">
+                <a href="https://github.com/zzulkar9" target="_blank"><img src="sources/images/icons8-github.svg" alt=""></a>
+                <a href="https://www.linkedin.com/in/muhdzulkarnain/" target="_blank"><img src="sources/images/icons8-linkedin.svg" alt=""></a>
+            </div>
+        </div>
+
+        <div class="left-right-section right-info">
+
+            <!-- FIRST SECTION -->
+            <div class="fist-section" id="about">
+                <h4 class="h4-pink">about</h4>
+                <p>i'm a recent graduate with a bachelor's in computer science (software engineering) and a diploma in computer science (IT). i’m passionate about coding, web and software development.</p>
+                <p>outside of programming, i love playing games (valorant pew pew) and watching anime. it’s my way to unwind and explore different worlds.</p>
+                <p>i'm always eager to apply my skills to real-world challenges and open to discovering new opportunities. <a href="mailto:muhdzzulkar9@gmail.com" class="underline">Let’s connect!</a></p>
+            </div>
+
+            <!-- Career SECTION -->
+
+            <div class="career-section" id="experiences">
+                <h4 class="h4-pink">experiences</h4>
+                <div class="career-wrap">
+                    <a href="https://www.bikebear.com.my/" target="_blank">
+                        <div class="career-inner">
+                            <div class="career-column career-date">
+                                <p class="no-top-margin">oct 2023 - feb 2024</p>
+                            </div>
+                            <div class="career-column">
+                                <h4 class="no-top-margin">web developer intern</h4>
+                                <h5>Bike Bear Sdn Bhd - Petaling Jaya, Selangor</h5>
+                                <p>developed and maintaining website. involved in the technical aspects of website creation and updating the site’s content and design to ensure it remained fresh, user-friendly, and aligned with the company’s branding strategy.</p>
+
+                                <div class="career-skill">
+                                    <li>javascript</li>
+                                    <li>html</li>
+                                    <li>css</li>
+                                    <li>react</li>
+                                    <li>php</li>
+                                    <li>wordpress</li>
+                                    <li>adobe XD</li>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="https://www.tuxuri.com/" target="_blank">
+                        <div class="career-inner">
+                            <div class="career-column career-date">
+                                <p class="no-top-margin">nov 2020 - mar 2021</p>
+                            </div>
+                            <div class="career-column">
+                                <h4 class="no-top-margin">software engineer intern</h4>
+                                <h5>Tuxuri Sdn Bhd - Shah Alam, Selangor</h5>
+                                <p>developed a user-friendly internal website to facilitate testing of website links for the DevOps team. i also developed a web scraping system/program for the company, gathered and organized data to be used in various geolocation analytics and reporting initiatives.</p>
+
+                                <div class="career-skill">
+                                    <li>python</li>
+                                    <li>python library</li>
+                                    <li>devops</li>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+
+
+            <!-- PROJECT SECTION -->
+
+            <div class="project-section" id="projects">
+                <h4 class="h4-pink">projects</h4>
+                <div class="project-wrap">
+                    <div class="project-inner">
+                        
+                        <div class="project-column">
+                            <h4 class="no-top-margin">fc students mobility system</h4>
+                            <p>web application for managing student mobility programs and study plans, serving both students and staff.</p>
+                            
+                            <div class="career-skill">
+                                <li>laravel</li>
+                                <li>aws</li>
+                            </div>
+                            <div class="project-link">
+                                <li><a href="https://github.com/zzulkar9/FC-Students-Mobility-System" class="underline" target="_blank">view github</a></li>
+                            </div>
+                        </div>
+                    </div>
+
+                        <div class="project-inner">
+                            <div class="project-column">
+                                <h4 class="no-top-margin">contact management</h4>
+                                <p>platform for managing contact information, including integration with calling APIs for enhanced communication.</p>
+                            
+                                <div class="career-skill">
+                                    <li>api</li>
+                                    <li>slim</li>
+                                </div>
+
+                                <div class="project-link">
+                                    <li><a href="https://github.com/zzulkar9/Contact-Management-System-SC" class="underline" target="_blank">view github</a></li>
+                                </div>
+                            </div>
+                        </div>
+
+                    <div class="project-inner">
+                        <div class="project-column">
+                            <h4 class="no-top-margin">password manager</h4>
+                            <p>simple and secure password manager built with python. this terminal-based application allows users to store, view, edit, and delete their passwords with ease.</p>
+                            
+                            <div class="career-skill">
+                                <li>python</li>
+                            </div>
+
+                            <div class="project-link">
+                                <li><a href="https://github.com/zzulkar9/Simple-Python-Password-Manager" class="underline" target="_blank">view github</a></li>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+
+                </div>
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>
